@@ -8,9 +8,9 @@ public class Tray {
         this.denomination = denomination;
     }
 
-    public Tray setNext(Tray next) {
-        this.next = next;
-        return next;
+    public Tray setNext(Tray nextTray) {
+        this.next = nextTray;
+        return nextTray;
     }
 
     public void process(int amount) {
