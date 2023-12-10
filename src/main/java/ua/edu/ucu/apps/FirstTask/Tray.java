@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.task1;
+package ua.edu.ucu.apps.FirstTask;
 
 public class Tray {
     private Tray next;

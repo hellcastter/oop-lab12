@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.task2;
+package ua.edu.ucu.apps.SecondTask;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,11 +7,11 @@ public class Main {
                 .addTask(new Signature<>(System.out::println))
                 .addTask(new Signature<>(x -> System.out.println(2 * x)));
 
-        Group<Integer> group2 = new Group<>();
-        group2
+        Group<Integer> otherGroup = new Group<>();
+        otherGroup
                 .addTask(group)
                 .addTask(new Signature<>(x -> System.out.println(3 * x)));
 
-        group2.apply(5);
+        otherGroup.apply(5);
     }
 }
