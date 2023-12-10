@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.SecondTask;
+package ua.edu.ucu.apps.second;
 
 import java.util.ArrayList;
 import java.util.Collections;

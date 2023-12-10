@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.FirstTask;
+package ua.edu.ucu.apps.first;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.SecondTask;
+package ua.edu.ucu.apps.second;
 
 import java.util.HashMap;
 import java.util.Map;
