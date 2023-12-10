@@ -20,6 +20,10 @@ public class Tray {
             throw new IllegalArgumentException();
         }
 
-        System.out.format("Please take %d of denomination %d\n", amount / denomination, denomination);
+        System.out.format(
+                "Please take %d of denomination %d\n",
+                amount / denomination,
+                denomination
+        );
     }
 }
