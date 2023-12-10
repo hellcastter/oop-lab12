@@ -1,8 +1,8 @@
 package ua.edu.ucu.apps.first;
 
 public class Tray {
-    private Tray next;
     public int denomination;
+    private Tray next;
 
     public Tray(int denomination) {
         this.denomination = denomination;
@@ -21,9 +21,9 @@ public class Tray {
         }
 
         System.out.format(
-                "Please take %d of denomination %d\n",
-                amount / denomination,
-                denomination
+            "Please take %d of denomination %d\n",
+            amount / denomination,
+            denomination
         );
     }
 }
